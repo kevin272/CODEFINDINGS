@@ -39,14 +39,3 @@ sudo find frontend -type f -exec chmod 644 {} \;
 sudo nginx -t
 sudo systemctl reload nginx
 ```
-
----
-
-## ⚡ Notes
-- I fixed spacing issues (e.g. `scp` line had no space between `*` and `name@ip`).
-- Grouped related commands (deployment, certbot, Nginx, permissions).
-- This sequence now reads like a proper deployment checklist.
-
----
-
-Would you like me to turn this into a **repeatable deployment script** (e.g. a Bash script with error checks), so you don’t have to manually run each command every time?
